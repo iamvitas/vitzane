@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VITZANE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <!-- Десктопна шапка -->
+   <header class="header desktop-header">
+    <nav class="nav">
+      <div class="nav-left">
+        <div class="dropdown">
+          <a href="#">КАТАЛОГ</a>
+          <div class="dropdown-content wide">
+            <div class="dropdown-column">
+              <h4>ОДЯГ</h4>
+              <a href="#">Футболки</a>
+              <a href="#">Штани</a>
+              <a href="#">Куртки</a>
+              <a href="#">Сорочки</a>
+              <a href="#">Джинси</a>
+            </div>
+            <div class="dropdown-column">
+              <h4>АКСЕСУАРИ</h4>
+              <a href="#">Прикраси</a>
+              <a href="#">Аксесуари</a>
+            </div>
+            <div class="dropdown-column">
+              <h4>ВЗУТТЯ</h4>
+              <a href="#">Взуття</a>
+            </div>
+          </div>
+        </div>
+        <a href="#">#VITZANELOOK</a>
+      </div>
+      <div class="logo">
+        <a href="index.html">VITZANE</a>
+      </div>
+      <div class="nav-right">
+        <a href="info.html">ІНФО</a>
+        <a href="about.html">ПРО НАС</a>
+        <a href="account.html">ACCOUNT</a>
+        <a href="cart.html" class="icon-link" style="position: relative;">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M6 6h15l-1.5 9h-13z" stroke="black" stroke-width="2" fill="none"/>
+            <circle cx="9" cy="21" r="1" fill="black"/>
+            <circle cx="18" cy="21" r="1" fill="black"/>
+          </svg>
+          <span id="cart-count" style="position: absolute; top: -5px; right: -10px; background: black; color: white; border-radius: 50%; padding: 2px 6px; font-size: 10px; display: none;">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+  
+  
+      <header class="header mobile-header">
+      <div class="mobile-nav">
+          <div class="burger" onclick="toggleMobileMenu()">☰</div>
+          <div class="logo"><a href="index.html">VITZANE</a></div>
+          <div class="icons">
+            <a href="cart.html" class="icon-link" style="position: relative;">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M6 6h15l-1.5 9h-13z" stroke="black" stroke-width="2" fill="none"/>
+                <circle cx="9" cy="21" r="1" fill="black"/>
+                <circle cx="18" cy="21" r="1" fill="black"/>
+              </svg>
+              <span id="cart-count" style="position: absolute; top: -5px; right: -10px; background: black; color: white; border-radius: 50%; padding: 2px 6px; font-size: 10px; display: none;">0</span>
+            </a>
+          </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+          <a href="#">КАТАЛОГ</a>
+          <a href="#">#VITZANELOOK</a>
+          <a href="info.html">ІНФО</a>
+          <a href="about.html">ПРО НАС</a>
+          <a href="account.html">ACCOUNT</a>
+      </div>
+  </header>
+
+    <section class="hero-section">
+        <div class="hero-image">
+            <img src="pic/about1.png" alt="Hero Image">
+        </div>
+        <div class="hero-text">
+            <p>
+
+                VITZANE — це бренд, що поєднує в собі найкращі традиції італійського дизайну та сучасні тенденції у світі моди. Наші корені глибоко пов'язані з Італією, де розвивалися висококласні технології виготовлення тканин і майстерність кутюр'є. Ми пишаємося тим, що кожен наш виріб відображає ці багаті традиції, передаючи елегантність і витонченість у кожному шві.</p>
+                
+                <p> Наш одяг створений для тих, хто цінує індивідуальність і якість. Ми орієнтуємось на клієнтів, які шукають вишуканість, комфорт і стиль в одному. Це для людей, які хочуть носити ексклюзивний одяг, що підкреслює їхній статус та смак. VITZANE — це не просто одяг, а частина вашої особистості, яку ви носите кожен день.</p>
+                
+                <p> Наша продукція не продається в звичайних магазинах. Кожен виріб ми шиємо тільки під індивідуальні параметри наших клієнтів. Це дозволяє нам створювати одяг, що ідеально сидить і відповідає найвищим вимогам до комфорту та стилю.</p>
+                
+                <p> Ми використовуємо тільки найкращі тканини, які ми самі виробляємо. У нас є власна ферма, на якій ми вирощуємо натуральні матеріали, з яких виготовляємо тканини, такі як шовк, що додає кожному виробу не тільки витонченого вигляду, але й неперевершеного комфорту. Ми маємо власні потужності для обробки цих тканин, що дає нам повний контроль над якістю кожного елемента.</p>
+                
+                <p> Наша тканина не має аналогів, і її виготовлення — це мистецтво. Тому наш одяг не так легко отримати. Кожен клієнт, який обирає VITZANE, отримує справжній витвір моди, створений спеціально для нього. Ми віримо, що мода повинна бути унікальною і що одяг може бути не просто одягом, а мистецтвом, яке робить кожного власника особливим.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Перша колонка -->
+            <div class="footer-left">
+                <h3>VITZANE</h3>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="pic/instagram-icon.svg" alt="Instagram" class="social-icon">
+                </a>
+                <img src="pic/payment-methods.png" alt="Payment Methods" class="payment-methods">
+            </div>
+            
+            <!-- Друга колонка -->
+            <div class="footer-center">
+                <p><a href="corporate.html">Корпоративні замовлення</a></p>
+                <p><a href="return-policy.html">Умови обміну та повернення</a></p>
+                <p><a href="shipping-info.html">Оплата і доставка</a></p>
+            </div>
+    
+            <!-- Третя колонка -->
+            <div class="footer-right">
+                <p>+380967733245</p>
+                <p><a href="mailto:contact@vitzane.com">contact@vitzane.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

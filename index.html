@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VITZANE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Десктопна шапка -->
+<header class="header desktop-header">
+  <nav class="nav">
+    <div class="nav-left">
+      <div class="dropdown">
+        <a href="#">КАТАЛОГ</a>
+        <div class="dropdown-content wide">
+          <div class="dropdown-column">
+            <h4>ОДЯГ</h4>
+            <a href="#">Футболки</a>
+            <a href="#">Штани</a>
+            <a href="#">Куртки</a>
+            <a href="#">Сорочки</a>
+            <a href="#">Джинси</a>
+          </div>
+          <div class="dropdown-column">
+            <h4>АКСЕСУАРИ</h4>
+            <a href="#">Прикраси</a>
+            <a href="#">Аксесуари</a>
+          </div>
+          <div class="dropdown-column">
+            <h4>ВЗУТТЯ</h4>
+            <a href="#">Взуття</a>
+          </div>
+        </div>
+      </div>
+      <a href="#">#VITZANELOOK</a>
+    </div>
+    <div class="logo">
+      <a href="index.html">VITZANE</a>
+    </div>
+    <div class="nav-right">
+      <a href="info.html">ІНФО</a>
+      <a href="about.html">ПРО НАС</a>
+      <a href="account.html">ACCOUNT</a>
+      <a href="cart.html" class="icon-link" style="position: relative;">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M6 6h15l-1.5 9h-13z" stroke="black" stroke-width="2" fill="none"/>
+          <circle cx="9" cy="21" r="1" fill="black"/>
+          <circle cx="18" cy="21" r="1" fill="black"/>
+        </svg>
+        <span id="cart-count" style="position: absolute; top: -5px; right: -10px; background: black; color: white; border-radius: 50%; padding: 2px 6px; font-size: 10px; display: none;">0</span>
+      </a>
+    </div>
+  </nav>
+</header>
+
+    <!-- Мобільна шапка -->
+    <header class="header mobile-header">
+    <div class="mobile-nav">
+        <div class="burger" onclick="toggleMobileMenu()">☰</div>
+        <div class="logo"><a href="index.html">VITZANE</a></div>
+        <div class="icons">
+          <a href="cart.html" class="icon-link" style="position: relative;">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M6 6h15l-1.5 9h-13z" stroke="black" stroke-width="2" fill="none"/>
+              <circle cx="9" cy="21" r="1" fill="black"/>
+              <circle cx="18" cy="21" r="1" fill="black"/>
+            </svg>
+            <span id="cart-count" style="position: absolute; top: -5px; right: -10px; background: black; color: white; border-radius: 50%; padding: 2px 6px; font-size: 10px; display: none;">0</span>
+          </a>
+        </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#">КАТАЛОГ</a>
+        <a href="#">#VITZANELOOK</a>
+        <a href="info.html">ІНФО</a>
+        <a href="about.html">ПРО НАС</a>
+        <a href="account.html">ACCOUNT</a>
+    </div>
+</header>
+
+    <section class="hero">
+        <img src="./pic/pic1.png" alt="VITZANE Hero Image" class="hero-img">
+    </section>
+
+    <section class="collection-title">
+      <h2>NEW IN SS25</h2>
+  </section>
+  
+    <section class="products">
+      <div class="product-card">
+        <a href="shirt1.html">
+        <img src="./pic/white-shirt.png" alt="Футболка" class="product-img">
+        <h3 class="product-name">Футболка</h3>
+        <p class="product-price">2500₴</p>
+      </a>
+      </div>
+      
+      <div class="product-card">
+        <a href="shirt2.html">
+        <img src="./pic/pic4.png" alt="Сорочка" class="product-img">
+        <h3 class="product-name">Сорочка</h3>
+        <p class="product-price">3900₴</p>
+      </a>
+      </div>
+      
+      <div class="product-card">
+        <a href="pants1.html">
+        <img src="./pic/pic3.png" alt="Класичні штани" class="product-img">
+        <h3 class="product-name">Класичні штани</h3>
+        <p class="product-price">4800₴</p>
+      </a>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="product-card">
+        <a href="cap.html">
+        <img src="./pic/pic5.png" alt="Кепка VITZANE" class="product-img">
+        <h3 class="product-name">Кепка VITZANE</h3>
+        <p class="product-price">5300₴</p>
+      </a>
+      </div>
+      
+      <div class="product-card">
+        <a href="shoes1.html">
+        <img src="./pic/pic6.png" alt="Туфлі" class="product-img">
+        <h3 class="product-name">Туфлі</h3>
+        <p class="product-price">7700₴</p>
+      </a>
+      </div>
+      
+      <div class="product-card">
+        <a href="jeans1.html">
+        <img src="./pic/pic7.png" alt="Джинси" class="product-img">
+        <h3 class="product-name">Джинси</h3>
+        <p class="product-price">6200₴</p>
+      </a>
+      </div>
+
+      <div class="product-card large-product-card">
+        <a href="bomber1.html">
+        <img src="./pic/pic8.png" alt="Бомбер" class="product-img">
+        <h3 class="product-name">Бомбер</h3>
+        <p class="product-price">8600₴</p>
+      </a>
+      </div>
+
+      <div class="product-card large-product-card">
+        <a href="ring.html">
+        <img src="./pic/pic9.PNG" alt="VITZANE x MAXIMAL" class="product-img">
+        <h3 class="product-name">VITZANE x MAXIMAL</h3>
+        <p class="product-price">14890₴</p>
+      </a>
+      </div>
+      
+    </section>
+
+    <section class="about-section">
+      <div class="about-image">
+          <!-- Фото бренду -->
+          <img src="pic/about.png" alt="Про VITZANE">
+      </div>
+      <div class="about-content">
+          <h2>Про VITZANE</h2>
+          <p>
+            VITZANE — це український бренд з локальним виробництвом у Львові,
+              заснований у 2025 році.
+            </p>
+            <p>
+              Бренд, що пропонує високоякісний, стильний та вічний одяг. Ми створюємо колекції для тих, хто цінує елегантність, комфорт і бездоганну якість.
+
+              Використовуючи тільки найкращі натуральні тканини, ми забезпечуємо довговічність і розкіш кожного виробу. Наш мінімалістичний підхід до дизайну підходить для тих, хто шукає стиль в стилі old money — елегантність без зайвих прикрас, де основний акцент на якості та витончених деталях.
+            </p>
+              
+            <p>Наші вироби для тих, хто хоче бути стильним і вишуканим, не зловживаючи гучними брендами, і створювати гардероб, який ніколи не виходить з моди.          </p>
+          <a href="about.html" class="read-more">Читати більше</a>
+      </div>
+  </section>
+  
+  
+    
+    <footer class="footer">
+      <div class="footer-content">
+          <!-- Перша колонка -->
+          <div class="footer-left">
+            <h3><a href="index.html" class="footer-logo-link">VITZANE</a></h3>          
+              <a href="https://www.instagram.com" target="_blank">
+                  <img src="pic/instagram-icon.svg" alt="Instagram" class="social-icon">
+              </a>
+              <img src="pic/payment-methods.png" alt="Payment Methods" class="payment-methods">
+          </div>
+          
+          <!-- Друга колонка -->
+          <div class="footer-center">
+              <p><a href="corporate.html">Корпоративні замовлення</a></p>
+              <p><a href="return-policy.html">Умови обміну та повернення</a></p>
+              <p><a href="shipping-info.html">Оплата і доставка</a></p>
+          </div>
+  
+          <!-- Третя колонка -->
+          <div class="footer-right">
+              <p>+380967733245</p>
+              <p><a href="mailto:contact@vitzane.com">contact@vitzane.com</a></p>
+          </div>
+      </div>
+  </footer>
+  
+  
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
