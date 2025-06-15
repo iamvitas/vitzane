@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VITZANE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <!-- Десктопна шапка -->
+   <header class="header desktop-header">
+    <nav class="nav">
+      <div class="nav-left">
+        <div class="dropdown">
+          <a href="#">КАТАЛОГ</a>
+          <div class="dropdown-content wide">
+            <div class="dropdown-column">
+              <h4>ОДЯГ</h4>
+              <a href="#">Футболки</a>
+              <a href="#">Штани</a>
+              <a href="#">Куртки</a>
+              <a href="#">Сорочки</a>
+              <a href="#">Джинси</a>
+            </div>
+            <div class="dropdown-column">
+              <h4>АКСЕСУАРИ</h4>
+              <a href="#">Прикраси</a>
+              <a href="#">Аксесуари</a>
+            </div>
+            <div class="dropdown-column">
+              <h4>ВЗУТТЯ</h4>
+              <a href="#">Взуття</a>
+            </div>
+          </div>
+        </div>
+        <a href="#">#VITZANELOOK</a>
+      </div>
+      <div class="logo">
+        <a href="index.html">VITZANE</a>
+      </div>
+      <div class="nav-right">
+        <a href="info.html">ІНФО</a>
+        <a href="about.html">ПРО НАС</a>
+        <a href="account.html">ACCOUNT</a>
+        <a href="cart.html" class="icon-link" style="position: relative;">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M6 6h15l-1.5 9h-13z" stroke="black" stroke-width="2" fill="none"/>
+            <circle cx="9" cy="21" r="1" fill="black"/>
+            <circle cx="18" cy="21" r="1" fill="black"/>
+          </svg>
+          <span id="cart-count" style="position: absolute; top: -5px; right: -10px; background: black; color: white; border-radius: 50%; padding: 2px 6px; font-size: 10px; display: none;">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+  
+  
+      <header class="header mobile-header">
+      <div class="mobile-nav">
+          <div class="burger" onclick="toggleMobileMenu()">☰</div>
+          <div class="logo"><a href="index.html">VITZANE</a></div>
+          <div class="icons">
+            <a href="cart.html" class="icon-link" style="position: relative;">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M6 6h15l-1.5 9h-13z" stroke="black" stroke-width="2" fill="none"/>
+                <circle cx="9" cy="21" r="1" fill="black"/>
+                <circle cx="18" cy="21" r="1" fill="black"/>
+              </svg>
+              <span id="cart-count" style="position: absolute; top: -5px; right: -10px; background: black; color: white; border-radius: 50%; padding: 2px 6px; font-size: 10px; display: none;">0</span>
+            </a>
+          </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+          <a href="#">КАТАЛОГ</a>
+          <a href="#">#VITZANELOOK</a>
+          <a href="info.html">ІНФО</a>
+          <a href="about.html">ПРО НАС</a>
+          <a href="account.html">ACCOUNT</a>
+      </div>
+  </header>
+
+    <main class="product-page">
+        <div class="product-page-left">
+          <img id="cap" src="./pic/pic5.png" alt="Кепка VITZANE" class="product-page-image">
+        </div>
+        <div class="product-page-right">
+          <h1 class="product-title">Кепка VITZANE</h1>
+          <p class="product-price">5300₴</p>
+          <div class="size-options">
+            <button class="size-btn" data-size="S">S</button>
+            <button class="size-btn" data-size="M">M</button>
+          </div>
+          <button class="add-to-cart">Додати в кошик</button>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-content">
+            <!-- Перша колонка -->
+            <div class="footer-left">
+                <h3>VITZANE</h3>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="pic/instagram-icon.svg" alt="Instagram" class="social-icon">
+                </a>
+                <img src="pic/payment-methods.png" alt="Payment Methods" class="payment-methods">
+            </div>
+            
+            <!-- Друга колонка -->
+            <div class="footer-center">
+                <p><a href="corporate.html">Корпоративні замовлення</a></p>
+                <p><a href="return-policy.html">Умови обміну та повернення</a></p>
+                <p><a href="shipping-info.html">Оплата і доставка</a></p>
+            </div>
+    
+            <!-- Третя колонка -->
+            <div class="footer-right">
+                <p>+380967733245</p>
+                <p><a href="mailto:contact@vitzane.com">contact@vitzane.com</a></p>
+            </div>
+        </div>
+    </footer>
+      
+
+<script src="script.js"></script>
+
+</body>
+</html>
